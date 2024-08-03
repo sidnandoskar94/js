@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.bmi-calculator {
+    width: 60%;
+    text-align: center;
+}
+
+.bmi-calculator-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    height: 40px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+p {
+    padding: 10px;
+    display: none;
+}
